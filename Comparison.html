@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="file:///C:/Users/natha/Documents/GitHub/Web-Design_Challenge/Resources/styles.css">
+    <link rel="stylesheet" type="text/css" href="Resources/styles.css">
     <title>Latitude Dashboard (NP)</title>
   </head>
   <body class style>
@@ -44,47 +44,37 @@
     
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 col-md-12">
-                <div class="box">
-                    <h3 class="title">Latitude vs Humidity</h3>
-                    <hr>
-                    <img src="../Resources/assets/images/Fig2.png" class="vizualization rounded float-left" style="max-width:100%" alt="Humidity Graph">
-                    <p>There seems to be no relationship between latitude and humidity. A variety of measurements of humidity can be found
-                    regardless of latitude. Regarding the data, there are some points with 0% humidity towards the north pole.<br><br><br><br></p>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-12">
-                <div class="box">
-                    <h3 class="title">Visualizations</h3>
-                    <hr>
-                    <div class="container">
-                        <div class="row" style="padding-bottom: 70px;">
-                            <div class="col-6">
-                                <div class="title">Latitude vs Max Temp</div>
-                                <a href="Max_Temperature.html">
-                                  <img class="panel" src="../Resources/assets/images/Fig1.png" style="max-width:100%" alt="Max Temperature Graph">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <div class="title">Latitude vs Humidity</div>
-                                <a href="Humidity.html">
-                                    <img class="panel" src="../Resources/assets/images/Fig2.png" style="max-width:100%" alt="Humidity Graph">
-                                </a>
-                            </div>
+            <div class="box">
+                <h3 class="title">Comparison: Latitude vs X</h3>
+                <hr>
+                <p>Click any plot to get an in-depth analysis.</p>
+                <div class="container" style="padding-bottom: 10px;">
+                    <div class="row">
+                        <div class="col-lg-6" style="padding-bottom: 30px;">
+                            <div class="title"><h5>vs Max Temp</h5></div>
+                            <a href="Max_Temperature.html">
+                                <img class="panel" src="../Resources/assets/images/Fig1.png" style="max-width:100%" alt="Max Temperature Graph">
+                            </a>
                         </div>
-                        <div class="row" style="padding-bottom: 70px;">
-                            <div class="col-6">
-                                <div class="title">Latitude vs Cloudiness</div>
-                                <a href="Cloudiness.html">
-                                    <img class="panel" src="../Resources/assets/images/Fig3.png" style="max-width:100%" alt="Cloudiness Graph">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <div class="title">Latitude vs Wind Speed</div>
-                                <a href="Wind_Speed.html">
-                                    <img class="panel" src="../Resources/assets/images/Fig4.png" style="max-width:100%" alt="Wind Speed Graph">
-                                </a>
-                            </div>
+                        <div class="col-lg-6" style="padding-bottom: 30px;">
+                            <div class="title"><h5>vs Humidity</h5></div>
+                            <a href="Humidity.html">
+                                <img class="panel" src="../Resources/assets/images/Fig2.png" style="max-width:100%" alt="Humidity Graph">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6" style="padding-bottom: 30px;">
+                            <div class="title"><h5>vs Cloudiness</h5></div>
+                            <a href="Cloudiness.html">
+                                <img class="panel" src="../Resources/assets/images/Fig3.png" style="max-width:100%" alt="Cloudiness Graph">
+                            </a>
+                        </div>
+                        <div class="col-lg-6" style="padding-bottom: 30px;">
+                            <div class="title"><h5>vs Wind Speed</h5></div>
+                            <a href="Wind_Speed.html">
+                                <img class="panel" src="../Resources/assets/images/Fig4.png" style="max-width:100%" alt="Wind Speed Graph">
+                            </a>
                         </div>
                     </div>
                 </div>
